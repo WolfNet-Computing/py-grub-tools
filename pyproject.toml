@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-grub-tools"
+version = "2026.a1"
+authors = [
+  { name="John Wolfe" },
+]
+description = "Simple set of python scripts for GRUB(2) including a script to make GRUB(2) playable music files from the numbers used in the command line."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "Apache-2.0"
+license-file = ["LICEN[CS]E*"]
+dependencies = ["wxPython"]
+
+[project.urls]
+Homepage = "https://github.com/WolfNet-Computing/py-qemu-man"
+
+[tool.setuptools]
+packages = ["src"]
