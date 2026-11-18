@@ -16,7 +16,7 @@ license-file = ["LICEN[CS]E*"]
 dependencies = ["wxPython"]
 
 [project.urls]
-Homepage = "https://github.com/WolfNet-Computing/py-qemu-man"
+Homepage = "https://github.com/WolfNet-Computing/py-grub-tools"
 
 [tool.setuptools]
 packages = ["src"]
